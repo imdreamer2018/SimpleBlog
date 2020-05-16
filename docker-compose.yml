@@ -6,6 +6,6 @@ services:
     ports:
     - "5000:5000"
     env_file:
-      - environment.env
+      - docker-environment.env
 
 
