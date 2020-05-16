@@ -1,0 +1,3 @@
+-r common.txt
+faker==1.0.4
+python-dotenv
