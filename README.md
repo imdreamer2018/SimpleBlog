@@ -1,12 +1,13 @@
-![](http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/Flask_logo.svg)
+<p align="center">
+<img align="center" src="http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/Flask_logo.svg"/>
 
-<center><font size=5 face="roman" ><b>SimpleBlog</b></font></center>
+<p align="center"><font size=5><b>SimpleBlog</b></font></p>
 
 ------
 
-<center>Simple blog web application by flask</center>
+<p align="center"><font size=3 color="grey">Simple blog web application by flask</font></p>
 
-![](http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/QQ20200517-101553.png)
+<img align="center" src="http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/QQ20200517-101553.png"/>
 
 ## Table of Contents
 
