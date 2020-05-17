@@ -45,6 +45,20 @@ cd SimpleBlog
 pip install -r app/requirements/dev.txt
 ```
 
+**Tree**:
+
+```shell
+├── app
+├── config.py
+├── Dockerfile
+├── LICENSE
+├── README.md
+├── docker-compose.yml
+├── docker-environment.env
+├── gunicorn.conf.py
+├── main.py
+```
+
 **step1**:Open **.env file**,configure system environment variables
 
 ```shell
