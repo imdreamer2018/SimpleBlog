@@ -1,7 +1,7 @@
 <p align="center">
 <img align="center" src="http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/Flask_logo.svg"/>
 
-<p align="center"><font size=5><b>SimpleBlog</b></font></p>
+<p align="center"><font size=8><b>SimpleBlog</b></font></p>
 
 ------
 
