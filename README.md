@@ -99,7 +99,9 @@ models.Role.insert_roles()
 #Then you will find the application migrate some tables to your mysql due to the Flask-Migrate
 ```
 
-**step3**: **flask run **.then this web application will be successful runing.And click http://127.0.0.1:5000 
+**step3**: **flask run**
+
+then this web application will be successful runing.And click http://127.0.0.1:5000 
 
 ### Docker depoly
 
