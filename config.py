@@ -5,8 +5,8 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY')
     MAIL_SERVER = os.environ.get('MAIL_SERVER')
-    MAIL_PORT = 465
-    MAIL_USE_SSL = True
+    MAIL_PORT = os.environ.get('MAIL_PORT') or 465
+    MAIL_USE_SSL = os.environ.get('MAIL_USE_SSL') or True
     MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
     # sendcloud API_KEY   EsneFQSpY0J3dbSP
     MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')
@@ -24,7 +24,11 @@ class Config:
         pass
 
 class DevelopmentConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://root:yq1996052468@192.168.0.108:3306/flasky'
+    DB_HOST = os.environ.get('DB_HOST')
+    DB_NAME = os.environ.get('DB_NAME')
+    DB_USER = os.environ.get('DB_USER')
+    DB_PASS = os.environ.get('DB_PASS')
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://' + DB_USER + ':' + DB_PASS + '@' + DB_HOST + ':3306/' + DB_NAME
 
 class TestingConfig(Config):
     TESTING = True

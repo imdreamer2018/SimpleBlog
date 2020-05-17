@@ -1,3 +1,4 @@
+import os
 from flask import Flask,render_template
 from flask_bootstrap import Bootstrap
 from flask_mail import Mail
@@ -17,7 +18,8 @@ db = SQLAlchemy()
 migrate = Migrate()
 pagedown = PageDown()
 
-def create_app(config_name):
+def create_app():
+    config_name = os.getenv('FLASK_CONFIG') or 'default'
     app = Flask(__name__)
     app.config.from_object(config[config_name])
     config[config_name].init_app(app)
