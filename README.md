@@ -45,7 +45,7 @@ cd SimpleBlog
 pip install -r app/requirements/dev.txt
 ```
 
-<font face="roman" size=4>**step1**:Open **.env file**,configure system environment variables</font>
+**step1**:Open **.env file**,configure system environment variables
 
 ```shell
 #.env file
@@ -70,7 +70,7 @@ FLASKY_MAIL_SENDER='admin@****.com'
 FLASKY_ADMIN='*****@gmail.com'
 ```
 
-<font face="roman" size=4>**step2**: **migrate mysql data** when you make sure the environment variables are configured correctly.If you have some error question,you can click this [link](https://www.dreamer.im/tags/Flask/)get more detail about it.</font>
+**step2**: **migrate mysql data** when you make sure the environment variables are configured correctly.If you have some error question,you can click this [link](https://www.dreamer.im/tags/Flask/)get more detail about it.
 
 ```shell
 #open the Terminal
@@ -85,7 +85,7 @@ models.Role.insert_roles()
 #Then you will find the application migrate some tables to your mysql due to the Flask-Migrate
 ```
 
-<font face="roman" size=4>**step3**: **flask run **.then this web application will be successful runing.And click http://127.0.0.1:5000 </font>
+**step3**: **flask run **.then this web application will be successful runing.And click http://127.0.0.1:5000 
 
 ### Docker depoly
 
