@@ -4,7 +4,7 @@
 
 ------
 
-<center><font color=grey face="roman">Simple blog web application by flask</font></center>
+<center>Simple blog web application by flask</center>
 
 ![](http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/QQ20200517-101553.png)
 
