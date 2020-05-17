@@ -65,7 +65,7 @@ pip install -r app/requirements/dev.txt
 #.env file
 FLASK_CONFIG='development'
 #mysql host,name,user,password
-DB_HOST='127.0.0.1'
+DB_HOST='ip'
 DB_NAME='****'
 DB_USER='root'
 DB_PASS='******'
@@ -105,7 +105,7 @@ then this web application will be successful runing.And click http://127.0.0.1:5
 
 ### Docker depoly
 
-<font face="roman" size=4>Open **docker-environment.env file**,configure system environment variables like step1.And you can open docker-compose.yml configure dock er properties.</font>
+<font face="roman" size=4>Open **docker-environment.env file**,configure system environment variables like step1.And you can open docker-compose.yml configure docker properties.</font>
 
 ```shell
 docker-compose up
@@ -113,5 +113,4 @@ docker-compose up
 
 ## License
 
-[MIT](https://github.com/imdreamer2018/SimpleBlog/LICENSE) @Imdreamer2018
-
+[MIT](https://github.com/imdreamer2018/SimpleBlog/blob/master/LICENSE) @Imdreamer
