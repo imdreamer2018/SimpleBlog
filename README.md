@@ -1,11 +1,11 @@
 <p align="center">
 <img align="center" src="http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/Flask_logo.svg"/>
 
-<p align="center"><font size=8><b>SimpleBlog</b></font></p>
+<p align="center" style="font-size:30px;"><b>SimpleBlog</b></p>
 
 ------
 
-<p align="center"><font size=3 color="grey">Simple blog web application by flask</font></p>
+<p align="center" style="color:grey;font-size:15px;">Simple blog web application by flask</p>
 
 <img align="center" src="http://imdreamer.oss-cn-hangzhou.aliyuncs.com/picGo/QQ20200517-101553.png"/>
 
