@@ -113,4 +113,5 @@ docker-compose up
 
 ## License
 
-[MIT](https://github.com/imdreamer2018/SimpleBlog/blob/master/LICENSE) @Imdreamer
+[MIT](https://github.com/imdreamer2018/SimpleBlog/blob/master/LICENSE) © Imdreamer
+
